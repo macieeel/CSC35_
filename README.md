@@ -16,3 +16,7 @@ No outro, rode:
 ```
 ./client localhost
 ```
+
+O código será executado, realizando a troca de mensagens já programadas pelo programa. Ao final dessa troca, o programa `client` pedirá um input do usuário referente a posição atual do drone. Escreva a posição no formato `número,número,número`.
+
+Para encerrar o protocolo, basta enviar as coordenadas da base: `0,0,0`.
